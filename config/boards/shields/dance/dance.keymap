@@ -157,6 +157,16 @@
             bindings = <&kp LG(RIGHT_ARROW)>;
             key-positions = <16 17>;
         };
+
+        ERShiftCTRLv {
+            bindings = <&kp LC(V)>;
+            key-positions = <2 3 32>;
+        };
+
+        DFShiftCTRLc {
+            bindings = <&kp LC(C)>;
+            key-positions = <32 13 12>;
+        };
     };
 
     keymap {
